@@ -35,7 +35,7 @@ class Solution:
             l = l.next
             point = point.next
 
-        if carry <> 0:
+        if carry != 0:
             point.next = ListNode(carry)
 
         return  head.next
