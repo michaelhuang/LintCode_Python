@@ -12,6 +12,6 @@ class Solution:
                 i += 1
         if i < len(A):
             res.extend(A[i:])
-        else:
+        else:  # j < len(B)
             res.extend(B[j:])
         return res
